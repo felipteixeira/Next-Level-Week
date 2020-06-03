@@ -16,3 +16,15 @@
         align-items: center;
     }
 }
+
+@media (min-width: 1700px) {
+    #home-page {
+        background-position: 40vw;
+    }
+}
+
+@media (max-height: 760px) {
+    #home-page {
+        background-position-y: 200px;
+    }
+}
