@@ -15,7 +15,12 @@
     #home-page main {
         align-items: center;
     }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
 }
+
 
 @media (min-width: 1700px) {
     #home-page {
